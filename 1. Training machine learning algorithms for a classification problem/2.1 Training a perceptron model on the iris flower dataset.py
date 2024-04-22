@@ -7,7 +7,7 @@ Use a file with data about iris flowers that I downloaded
 from the Machine Learning Repository at the University
 of California at Irvine.
 """
-data_path = "E:\\Py\\virtual\\Машинное обучение\\1. Training machine learning algorithms for a classification problem\\iris.data"
+data_path = "Your\path\to\the\location\of\the\iris.data file"
 df = pd.read_csv(data_path)
 
 """
