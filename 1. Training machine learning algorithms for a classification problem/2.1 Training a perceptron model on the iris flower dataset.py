@@ -27,7 +27,7 @@ and assign them to a feature matrix X, which can be visualized using a two-dimen
 scatter plot (also called a scatterplot).
 """
 Y = df.iloc[0:100, 4].values
-Y = np.where(Y == 'Iris-setosa', -1, 1)  # Corrected usage of Y
+Y = np.where(Y == 'Iris-setosa', -1, 1)
 X = df.iloc[0:100, [0, 2]].values
 
 plt.scatter(X[:50, 0], X[:50, 1], color='red', marker='o', label='Setosa)')
